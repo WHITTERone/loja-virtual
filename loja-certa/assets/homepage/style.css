@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+  width: 10rem;
+}
+
+.global {
+  height: 120px;
+}
+
+.primeiro-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: -120px;
+}
+
+.row-header {
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 76rem;
+  height: 50px;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.row-header div {
+  margin: 40px;
+}
+
+.contato {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+}
+
+.contato a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.lateral {
+  display: flex;
+  position: relative;
+  top: 14px;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+  font-weight: bold;
+}
+
+.lateral a {
+  list-style: none;
+  text-decoration: none;
+  margin: 10px;
+  color: #6895f3;
+}
+
+.navlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  list-style: none;
+  margin-left: 110px;
+}
+
+.navlist a {
+  display: flex;
+  text-decoration: none;
+  color: #6895f3;
+  font-weight: bold;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  transition: all .2s ease-in-out;
+}
+
+.navlist a:hover {
+  color: #abc0ee;
+}
+
+.navlist li {
+    transition: all .2s ease-in-out;
+    position: relative;
+    margin: 10px;
+    width: auto;
+    height: 50px;
+    border-radius: 10px;
+    top: 5px;
+}
+
+#formulario {
+  transform: translateX(200px);
+  margin-top: -62px;
+}
+
+.pesquisar {
+  border-radius: 20px;
+  transform: translateX(9rem);
+  padding: 10px 10px;
+  border: 2px solid #ccc; /* 2px de largura, estilo sólido, cor cinza (#ccc) */
+  outline: none;
+}
+
+.buscar {
+  transform: translateX(90px);
+  border-radius: 999px;
+  padding: 15px 18px;
+  background-color: black;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.buscar:hover {
+    background-color: rgb(51, 51, 51);
+}
+
+#bandeira {
+  width: 22px;
+  height: 22px;
+}
+
+.lingua {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.categoria {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.contato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.contato a {
+  margin: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: rgb(44, 43, 43);
+}
+
+#lupa {
+  width: 20px;
+  height: 20px;
+}
+
+.formulario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lingua-list {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #ffffff;
+    width: 80px;
+    height: 0; /* Inicialmente a altura é 0 */
+    overflow: hidden; /* Oculta o conteúdo que excede a altura */
+    list-style: none;
+    border: solid 1px #ccc;
+    z-index: 2;
+    opacity: 0; /* Inicialmente a opacidade é 0 */
+    transition: all 0.2s ease-in-out;
+}
+
+.lingua:hover .lingua-list {
+    height: 100px; /* Altura máxima para mostrar o conteúdo */
+    opacity: 1; /* Torna a ul totalmente visível */
+}
+
+.lingua-list img {
+    width: 20px;
+    height: 20px;
+}
+
+.lingua-list a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: #6895f3;
+}
+
+.quantidade-carrinho {
+    display: flex;
+    position: relative;
+    width: auto;
+    background: #6895f3;
+    border-radius: 9999px;
+    margin-left: 25px;
+    height: auto;
+    top: -34px;
+    cursor: pointer;
+}
+
+.quantidade-carrinho p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6.7px;
+    color: #ffffff;
+}
+
+@media (max-width: 999px) {
+
+}
